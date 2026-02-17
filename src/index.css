@@ -7,19 +7,19 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --bg-main: #090913;
-  --bg-accent: radial-gradient(circle at 15% 15%, #35205e 0%, transparent 38%),
-    radial-gradient(circle at 80% 0%, #13356b 0%, transparent 35%),
-    radial-gradient(circle at 70% 100%, #2f1658 0%, transparent 34%);
-  --text-main: #f3f5ff;
-  --text-soft: #c7cae7;
-  --text-muted: #9ca1c8;
-  --accent: #8f9bff;
-  --accent-2: #63d1ff;
-  --surface-hover: rgba(141, 155, 255, 0.15);
-  --glass-bg: rgba(16, 18, 32, 0.58);
-  --border: rgba(176, 184, 255, 0.2);
-  --shadow-lg: 0 10px 30px rgba(7, 9, 24, 0.45);
+  --bg-main: #070707;
+  --bg-accent: radial-gradient(circle at 15% 15%, #1a1a1a 0%, transparent 42%),
+    radial-gradient(circle at 85% 10%, #111111 0%, transparent 40%),
+    radial-gradient(circle at 70% 100%, #171717 0%, transparent 40%);
+  --text-main: #f2f2f2;
+  --text-soft: #c7c7c7;
+  --text-muted: #9a9a9a;
+  --accent: #b9c0d0;
+  --accent-2: #d8deea;
+  --surface-hover: rgba(255, 255, 255, 0.08);
+  --glass-bg: rgba(20, 20, 20, 0.68);
+  --border: rgba(255, 255, 255, 0.14);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.5);
   --radius-lg: 18px;
 }
 
