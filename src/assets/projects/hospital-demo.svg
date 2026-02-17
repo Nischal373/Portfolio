@@ -1,0 +1,24 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101A3D"/>
+      <stop offset="1" stop-color="#0D274B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="280" y1="160" x2="920" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7FA6FF"/>
+      <stop offset="1" stop-color="#63D1FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" rx="32" fill="url(#bg)"/>
+  <circle cx="1020" cy="110" r="120" fill="#8F9BFF" fill-opacity="0.18"/>
+  <circle cx="180" cy="620" r="140" fill="#63D1FF" fill-opacity="0.15"/>
+  <rect x="180" y="120" width="840" height="460" rx="28" fill="#0A122B" stroke="#B0B8FF" stroke-opacity="0.28"/>
+  <rect x="240" y="200" width="240" height="300" rx="20" fill="#111C40"/>
+  <rect x="530" y="200" width="410" height="52" rx="12" fill="#111C40"/>
+  <rect x="530" y="278" width="410" height="52" rx="12" fill="#111C40"/>
+  <rect x="530" y="356" width="410" height="52" rx="12" fill="#111C40"/>
+  <rect x="530" y="434" width="280" height="52" rx="12" fill="#111C40"/>
+  <path d="M360 258V362" stroke="url(#accent)" stroke-width="28" stroke-linecap="round"/>
+  <path d="M308 310H412" stroke="url(#accent)" stroke-width="28" stroke-linecap="round"/>
+  <text x="180" y="90" fill="#EAF0FF" font-size="42" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Hospital Management Dashboard</text>
+</svg>

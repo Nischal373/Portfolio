@@ -1,0 +1,67 @@
+:root {
+  font-family: Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg-main: #090913;
+  --bg-accent: radial-gradient(circle at 15% 15%, #35205e 0%, transparent 38%),
+    radial-gradient(circle at 80% 0%, #13356b 0%, transparent 35%),
+    radial-gradient(circle at 70% 100%, #2f1658 0%, transparent 34%);
+  --text-main: #f3f5ff;
+  --text-soft: #c7cae7;
+  --text-muted: #9ca1c8;
+  --accent: #8f9bff;
+  --accent-2: #63d1ff;
+  --surface-hover: rgba(141, 155, 255, 0.15);
+  --glass-bg: rgba(16, 18, 32, 0.58);
+  --border: rgba(176, 184, 255, 0.2);
+  --shadow-lg: 0 10px 30px rgba(7, 9, 24, 0.45);
+  --radius-lg: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--text-main);
+  background-color: var(--bg-main);
+  background-image: var(--bg-accent);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

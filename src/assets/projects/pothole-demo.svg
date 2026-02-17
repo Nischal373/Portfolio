@@ -1,0 +1,24 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A1634"/>
+      <stop offset="1" stop-color="#2A1E48"/>
+    </linearGradient>
+    <linearGradient id="warn" x1="330" y1="490" x2="870" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9B6B"/>
+      <stop offset="1" stop-color="#FFE07D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" rx="32" fill="url(#bg)"/>
+  <rect x="135" y="120" width="930" height="500" rx="28" fill="#100F23" stroke="#BCB7EA" stroke-opacity="0.25"/>
+  <path d="M190 520H1010" stroke="#403B63" stroke-width="24" stroke-linecap="round"/>
+  <path d="M220 490H980" stroke="#5A5382" stroke-width="10" stroke-dasharray="18 18"/>
+  <ellipse cx="560" cy="520" rx="120" ry="42" fill="#0A0917" stroke="#8D86C4" stroke-width="3"/>
+  <ellipse cx="730" cy="520" rx="95" ry="34" fill="#0A0917" stroke="#8D86C4" stroke-width="3"/>
+  <polygon points="860,210 935,340 785,340" fill="none" stroke="url(#warn)" stroke-width="16"/>
+  <rect x="850" y="255" width="20" height="45" rx="10" fill="url(#warn)"/>
+  <circle cx="860" cy="317" r="10" fill="url(#warn)"/>
+  <rect x="200" y="170" width="300" height="70" rx="14" fill="#1A1835"/>
+  <text x="225" y="216" fill="#EDEBFF" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Detection Model</text>
+  <text x="135" y="90" fill="#F2F0FF" font-size="42" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Pothole Detection &amp; Road Analysis</text>
+</svg>
